@@ -57,13 +57,7 @@ maid-in-hackney/
 │   └── types/index.ts     shared TypeScript types
 ```
 
-## Things to decide (from the deck)
 
-- Cleaning rate: £20/hour (price list) vs £25–£30/hour (membership table) → `src/data/cleaning.ts`, `src/data/lifestyle.ts`
-- Flowers: £9.49–£27.99 (flowers slide) vs £35 per bouquet (membership table)
-- Breakfast: £15 per person vs £12 (membership table); "Full Wellness" has no price
-- Individual supplies, life coach and PT have no prices yet
-- Real email, phone number and photos
 
 ## Next steps
 
