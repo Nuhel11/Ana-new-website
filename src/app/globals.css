@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/*
+  Maid in Hackney brand colours, taken from the business deck:
+  - pink   : the brush-stroke pink used on slide titles
+  - blush  : the soft pink behind headings
+  - sage   : the grey-green background of the logo card
+  - cocoa  : the brown "i" in the logo
+*/
+:root {
+  --background: #ffffff;
+  --foreground: #161414;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-pink: #f07c97;
+  --color-pink-dark: #d95f7c;
+  --color-blush: #fce4ea;
+  --color-sage: #a7ada6;
+  --color-sage-light: #eef0ec;
+  --color-cocoa: #7a5440;
+  --color-ink: #161414;
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-poppins);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
